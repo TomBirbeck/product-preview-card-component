@@ -124,6 +124,7 @@ main {
         flex-direction: row;
         width: 50rem;
         height: 35rem;
+        border-radius: 1rem;
     }
     .image {
         content: url('./images/image-product-desktop.jpg');
@@ -146,14 +147,15 @@ main {
     }
     .prices-container {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     .text-area {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 2rem 3rem;
+        padding: 1rem 3rem;
         height: 100%;
+        width: 50%;
     }
     .product-price {
         font-size: 2rem;
